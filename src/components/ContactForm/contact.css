@@ -1,0 +1,42 @@
+#contact {
+    /* height: 60vh; */
+    margin-bottom: 10vh;
+}
+
+Form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.contactName, .email, .message, .submitButton {
+    margin-bottom: 2vh;
+    font-size: 2.5vw;
+    font-family: "Montserrat-Light", sans-serif;
+}
+
+.contactName, .email, .message {
+    width: 75vw;
+}
+
+.submitButton {
+    margin-top: 1vw;
+    padding: 0.75rem;
+    border-radius: 30rem;
+}
+
+.submitButton:hover {
+    color: #F0122D;
+    border: 2px solid #F0122D;
+    cursor: pointer;
+}
+
+input, textarea {
+    padding-left: 5px;
+}
+
+@media screen and (min-width: 1350px) {
+    .contactName, .email, .message, .submitButton {
+        font-size: 34px;
+    }
+}

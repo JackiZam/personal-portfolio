@@ -1,0 +1,168 @@
+#pageLayout {
+    display: flex;
+    flex-flow: row nowrap;
+    /* justify-content: space-around; */
+    /* margin: 0 10vw; */
+    /* height: 100vh; */
+    /* overflow: hidden; */
+    /* align-items: center; */
+    margin-bottom: 10vh;
+}
+
+.amPictures {
+    display: flex;
+    flex-flow: column nowrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* width: 40vw; */
+    margin: 0 0 0 5vw;
+}
+
+.miniPhotos {
+    display: flex;
+    flex-flow: row nowrap;
+}    
+
+/* .picture {
+    margin: 1vh 1vw 1vh 1vw;
+} */
+
+.leftColImgs
+{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 5vh 1vw;
+}
+
+.rightColImgs
+{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 15vh 1vw;
+}
+
+.picture {
+    width: 10vw;
+    height: auto;
+    margin: 1.5vh 1vw 1vh 1vw;
+}
+
+.picture.main {
+    height: 30vh;
+    width: auto;
+}
+
+.picture.mini {
+    height: 15vh;
+    width: auto;
+}
+
+.amText {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50vw;
+    /* align-items: center; */
+    margin-left: 8vw;
+    margin-right: 10vw;
+    /* margin-bottom: 15vh; */
+    /* margin-top: 20vh; */
+    /* margin: 20vh 8vw 0 0; */
+}
+
+.name {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+/* .textSections {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    font-size: 1.35vw;
+} */
+
+.amLeftText {
+    align-items: flex-start;
+    text-align: left;
+    width: 20vw;
+}
+
+.amRightText {
+    align-items: center;
+    text-align: center;
+    width: 20vw;
+}
+
+/* .sectionHeader {
+    text-decoration: underline;
+    font-size: 2.5vw;
+    padding-top: 1.75vh;
+    padding-bottom: 1vh;
+    text-align: center;
+} */
+
+.picture:nth-child(odd) {
+    align-items: flex-start;
+}
+
+.picture:nth-child(even) {
+    align-items: flex-end;
+}
+
+div.bio {
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+div.bio > p {
+    font-size: 1.75vw;
+    /* padding-top: 5px; */
+    padding-bottom: 20px;
+    font-family: "Montserrat-Light", sans-serif;
+    text-align: center;
+}
+
+.spacer {
+    height: 2vh;
+}
+
+.sectionTitle {
+    font-size: 3.5vw;
+}
+
+@media screen and (max-width: 1060px) {
+    #pageLayout {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .amPictures {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    .picture.main {
+        height: 28vw;
+        width: auto;
+    }
+    .picture.mini {
+        height: 28vw;
+        width: auto;
+    }
+    div.bio > p {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .sectionTitle {
+        font-size: 55px;
+    }
+    
+    div.bio > p {
+        font-size: 27px;
+    }
+}

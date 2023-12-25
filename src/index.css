@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Montserrat";
+    src: local("Montserrat"), url("./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: local("Montserrat"), url("./assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,29 @@
+.edText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.75vw;
+    text-align: center;
+}
+
+.edText h3 {
+    font-size: 2.5vw;
+    padding-bottom: 1%;
+}
+
+@media screen and (max-width: 1060px) {
+    .edText {
+        font-size: 2.2vw;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .edText {
+        font-size: 26px;
+    }
+    
+    .edText h3 {
+        font-size: 38px;
+    }
+}

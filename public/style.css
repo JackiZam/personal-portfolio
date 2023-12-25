@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    font-family: "Montserrat", sans-serif;
+    z-index: 1;
+}
+
+body {
+    background: #FDF8F0;
+    color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+p {
+    font-family: "Montserrat-Light", sans-serif;
+}

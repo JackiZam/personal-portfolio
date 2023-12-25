@@ -1,0 +1,111 @@
+.navbar {
+    width: 100vw;
+    /* max-width: 75rem; */
+    height: 5rem;
+    /* margin: 2.5vh auto; */
+    padding: 5.5vh 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #FDF8F0;
+}
+
+.navbarItem {
+    margin: 2vw;
+    cursor: pointer;
+    font-size: 1.85vh;
+    font-weight: bold;
+    color: black;
+}
+
+.navbarItem:hover {
+    color: #F0122D;
+    border-bottom: 1px solid #F0122D;
+    padding-bottom: 0.5rem;
+}
+
+.active {
+    color: #F0122D;
+}
+
+.nameLink {
+    font-size: 2.5vh;
+    cursor: pointer;
+    color: black;
+}
+
+.navLink {
+    display: none;
+}
+
+.menuImg {
+    display: none;
+    object-fit: cover;
+    height: 3vh;
+}
+
+.navMenu {
+    /* display: none; */
+    position: absolute;
+    top: 8vh;
+    right: 4vw;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1px; */
+    height: fit-content;
+    min-width: 3vw;
+    background: #E9B868;
+    /* border-radius: 1vh; */
+    text-align: right;
+}
+
+.dropdownItem {
+    padding: 0.5rem;
+    margin: 0.25rem;
+    background-color: #FDF8F0;
+    font-size: 4vw;
+}
+
+@media screen and (min-width: 1350px) {
+    .navbarItem {
+        font-size: 16px;
+    }
+
+    .nameLink {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .navLink, .menuImg {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        font-weight: bold;
+        border: none;
+        font-family: "Montserrat-Light", sans-serif;
+        font-size: 1.75vh;
+    }
+    .desktopMenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .navLink, .menuImg {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .navLink {
+      font-size: 4vw;
+    }
+    .menuImg {
+        margin-left: 1vw;
+        width: 4vw;
+    }
+  }
