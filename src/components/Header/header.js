@@ -19,7 +19,7 @@ const Header = () => {
           <span className='bottomDescriptors'>Sports Lover</span>
       </h3>
       <div className='headerLinks'>
-        <a href="https://1drv.ms/w/s!ApZuCnEE6ysdhkv96vdWFxJG9pUl?e=dyaH2o" className='headerLink' target="_blank">My Resume</a>
+        <a href="https://1drv.ms/w/s!ApZuCnEE6ysdhkv96vdWFxJG9pUl?e=Fr5CYg" className='headerLink' target="_blank">My Resume</a>
         <a href="#contact" className='headerLink'>Contact Me</a>
       </div>
     </section>
