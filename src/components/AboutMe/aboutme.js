@@ -24,14 +24,14 @@ const AboutMe = () => {
           <h1 className='name sectionTitle'>About Jacqueline</h1>
           <div className='bio'>
             <p>Jacqueline is a second-year Computer Science major and International Engineering minor in the Burnett Honors College at the University of Central Florida with a passion for programming and creating.</p>
-            <p>Some of her passions and hobbies include travelling, watching movies, writing, reading, </p>
+            <p>Some of her passions and hobbies include travelling, watching movies, writing, reading, language learning, and playing piano!</p>
           </div>
           <Collapsible className='collapsible education' isActive={false} sectionTitle = "Education" component={<EducationCard></EducationCard>}/>
           <p className='spacer'> </p>
           <Collapsible className='collapsible skills' isActive={false} sectionTitle = "Skills" component={[
             <SkillsCard category="Programming Languages" skills="C, Java, HTML, CSS, JavaScript, Python, Flutter, C++"></SkillsCard>,
             <SkillsCard category="Software Tools" skills="Linux OS, Git, GitHub, VSCode, Microsoft Office, Arduino IDE"></SkillsCard>, 
-            <SkillsCard category="Languages" skills="English (Fluent), Spanish (B1), French (A1)"></SkillsCard>
+            <SkillsCard category="Languages" skills="English (Fluent), Spanish (B1), French (A2), Zulu (A1)"></SkillsCard>
           ]}/>
         </div>
       </div>
